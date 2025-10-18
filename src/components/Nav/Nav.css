@@ -1,0 +1,44 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+
+ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #e7e7e7;
+}
+
+.in-cart {
+    background-color: red;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 50%;
+    padding: 0.25em 0.50em;
+    display: inline-block;
+    min-width: 20px;
+    text-align: center;
+    margin-left: 0.25rem;
+}
+
+.li-cart {
+    float: left;
+}

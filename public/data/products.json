@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1",
+    "name": "Carpa Himalaya 3P",
+    "price": 65000,
+    "category": "Carpas",
+    "description": "Carpa de alta montaña para 3 personas, resistente al viento y la lluvia.",
+    "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "2",
+    "name": "Carpa ultraliviana 2P",
+    "price": 59000,
+    "category": "Carpas",
+    "description": "Carpa liviana para 2 personas, ideal para travesías cortas.",
+    "imageUrl": "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "3",
+    "name": "Guantes térmicos impermeables",
+    "price": 13000,
+    "category": "Ropa",
+    "description": "Guantes con forro polar interno y palma antideslizante. Resistentes al agua.",
+    "imageUrl": "https://images.unsplash.com/photo-1609501676200-0a60b8ef3b1c?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "4",
+    "name": "Camiseta térmica DryTech",
+    "price": 14500,
+    "category": "Ropa",
+    "description": "Camiseta térmica respirable de secado rápido. Ideal para climas fríos.",
+    "imageUrl": "https://images.unsplash.com/photo-1600181955055-59a2f8e21056?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "5",
+    "name": "Hornillo portátil a gas",
+    "price": 18000,
+    "category": "Cocina",
+    "description": "Hornillo plegable de acero inoxidable, compatible con cartuchos de gas.",
+    "imageUrl": "https://images.unsplash.com/photo-1524492449090-367f6c77f456?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "6",
+    "name": "Cocinilla multifunción con olla",
+    "price": 26000,
+    "category": "Cocina",
+    "description": "Set de cocina de camping con hornillo, olla, tapa y encendido piezoeléctrico.",
+    "imageUrl": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "7",
+    "name": "Set de cubiertos plegables",
+    "price": 5600,
+    "category": "Cocina",
+    "description": "Cuchillo, tenedor y cuchara plegables en acero inoxidable.",
+    "imageUrl": "https://images.unsplash.com/photo-1627490217745-6d8478cf5a09?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "8",
+    "name": "Anafe doble a gas",
+    "price": 42000,
+    "category": "Cocina",
+    "description": "Anafe portátil con dos hornallas y encendido piezoeléctrico.",
+    "imageUrl": "https://images.unsplash.com/photo-1627483269518-04bfc8f2465c?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "9",
+    "name": "Kit de primeros auxilios compacto",
+    "price": 8500,
+    "category": "Accesorios",
+    "description": "Botiquín de viaje con los elementos esenciales para emergencias.",
+    "imageUrl": "https://images.unsplash.com/photo-1619712604237-06c6c2ef3e0b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "10",
+    "name": "Cinturón portabotella",
+    "price": 7500,
+    "category": "Accesorios",
+    "description": "Cinturón ajustable con bolsillo y soporte para botella deportiva.",
+    "imageUrl": "https://images.unsplash.com/photo-1590080875841-17e1b4f7c38d?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "11",
+    "name": "Bolso estanco 20L",
+    "price": 21000,
+    "category": "Accesorios",
+    "description": "Bolso impermeable con cierre enrollable. Ideal para kayak o lluvia.",
+    "imageUrl": "https://images.unsplash.com/photo-1616006895093-6e4d6d8d6c9c?auto=format&fit=crop&w=800&q=80"
+  }
+]

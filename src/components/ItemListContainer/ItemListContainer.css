@@ -1,0 +1,24 @@
+.item-list-container {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.item-list-container h2 {
+  color: #264653;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Estado de carga */
+.item-list-container.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  color: #6c757d;
+  font-style: italic;
+}
