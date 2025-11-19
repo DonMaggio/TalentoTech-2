@@ -1,0 +1,29 @@
+.count-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.count-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.count-span {
+    color: #000;
+}
+
+.btn-1 {
+    padding: 10px 20px;
+    
+}
+
+.btn-1:disabled {
+    pointer-events: none;
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+    opacity: 0.6;
+}

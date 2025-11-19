@@ -1,44 +1,90 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+/* Contenedor principal */
+.nav {
     display: flex;
-    border: 1px solid #e7e7e7;
-    background-color: #f3f3f3;
+    list-style: none;
+    margin: 1rem 0;
+    border-bottom: 1px solid #dee2e6;
+    gap:18px;
+    padding:10px 16px;
+    background:#fff;
+    overflow:auto
 }
 
-li {
-    display: inline;
-    float: left;
-}
-
-
-ul li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+/* Elementos de la lista */
+.nav-home {
     font-weight: bold;
+    color: white;
 }
 
-nav ul li a:hover {
-    background-color: #e7e7e7;
+.nav-home:hover {
+  background-color: #f8f9fa;
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.nav-item {
+    margin-right: 1rem;
+    float: left;
+    display: flex
+}
+
+/* Enlaces */
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  overflow:auto;
+  align-items: center;
+  text-decoration: none;
+  transition: color 0.2s ease, background-color 0.2s ease;
+  border-radius: 0.25rem;
+}
+
+/* Hover */
+.nav-link:hover {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+/* Cart */
+.nav-item-cart {
+  position: relative; /* contenedor relativo para posicionar la badge */
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* empuja el carrito al final de la barra */
+}
+
+.nav-link-cart {
+  position: relative; /* Posición absoluta */
+  z-index: 1; /* Para que aparezca encima de otros elementos */
+  display: block;
+  padding: 0.5rem 1rem;
+  color:#333;
+  font-size: 1.5rem;
+  text-decoration: none;
+  transition: color 0.2s ease, background-color 0.2s ease;
+  border-radius: 0.25rem;
+}
+
+.nav-link-cart:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .in-cart {
-    background-color: red;
-    font-size: 0.75rem;
-    font-weight: bold;
-    color: white;
-    border-radius: 50%;
-    padding: 0.25em 0.50em;
-    display: inline-block;
-    min-width: 20px;
-    text-align: center;
-    margin-left: 0.25rem;
-}
-
-.li-cart {
-    float: left;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 0.75rem;
+  border-radius: 50%;
+  min-width: 20px;
+  height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
 }

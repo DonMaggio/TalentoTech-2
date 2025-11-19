@@ -1,0 +1,138 @@
+/* ===============================
+  PRODUCT FORM CONTAINER STYLES
+  =============================== */
+
+.product-form-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: #1c2733;
+  color: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 0.3s ease;
+}
+
+.product-form-container:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.product-form-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1173d4;
+}
+
+/* FORM ELEMENTS */
+.product-form * {
+  margin: 0 !important;
+  align-self: flex-start !important;
+  gap: 1rem;
+}
+
+.product-form label {
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  display: block;
+}
+
+.form-group {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+}
+
+.product-form input,
+.product-form textarea,
+.product-form select {
+  width: 90% !important;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #324d67;
+  background-color: #192633;
+  color: #fff;
+  font-size: 1rem;
+  transition: border 0.2s ease, background-color 0.2s ease;
+}
+
+.product-form input:focus,
+.product-form textarea:focus,
+.product-form select:focus {
+  outline: none;
+  border-color: #1173d4;
+  background-color: #1f2e3c;
+}
+
+/* FILE INPUT */
+.file-input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.file-input input[type="file"] {
+  margin-top: 0.25rem;
+  color: #92adc9;
+}
+
+/* ERROR MESSAGES */
+.error {
+  color: #ff6b6b;
+  font-size: 0.9rem;
+  margin-top: -0.25rem;
+}
+
+/* SUBMIT BUTTON */
+.btn-form {
+  background-color: #1173d4;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.9rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.25s ease, transform 0.1s ease;
+}
+
+.product-form button:hover {
+  background-color: #0e63b8;
+}
+
+.product-form button:active {
+  transform: scale(0.98);
+}
+
+/* LOADING STATE */
+.product-form button.loading {
+  background-color: #0e63b8;
+  cursor: wait;
+  opacity: 0.8;
+}
+
+/* SUCCESS / ERROR GENERAL MESSAGE */
+.alert-message {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.alert-success {
+  color: #4caf50;
+}
+
+.alert-error {
+  color: #ff6b6b;
+}
+
+/* RESPONSIVE */
+@media (max-width: 480px) {
+  .product-form-container {
+    padding: 1.25rem;
+  }
+
+  .product-form button {
+    font-size: 0.95rem;
+  }
+}

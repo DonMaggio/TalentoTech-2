@@ -1,4 +1,4 @@
 import { createContext } from "react";
 
-// Creación del contecto a compartir
+// Creación del contexto a compartir
 export const CartContext = createContext()

@@ -3,28 +3,24 @@ import { useCartContext } from "../../context/CartContext/useCartContext"
 import './Nav.css'
 
 export const Nav = () => {
-    const {getTotalItem} = useCartContext()
+    const { getTotalItem } = useCartContext()
+    const total = getTotalItem()
 
     return (
-    <nav>
-        <h2>LOGO</h2>
-        <ul>
-            <li>
-                <a href={"/"}>Home</a>
-            </li>
-            <li>
-                <Link to={"/category/carpas"}>Carpas</Link>
-            </li>
-            <li>
-                <Link to={"/category/bolsasdedormir"}>Bolsas de dormir</Link>
-            </li>
-            <li>
-                <Link to={"/cart"}>Carrito</Link>
-                {getTotalItem() > 0 && (
-                    <span className="in-cart">{getTotalItem()}</span>
-                )}
-            </li>
-        </ul>
+    <nav className="nav-bar">
+            <ul className="nav">
+                <li className="nav-home"><Link className="nav-link" to={"/"}>Home</Link></li>
+                <li className="nav-item"><Link className="nav-link" to={"/category/carpa"}>Carpas</Link></li>
+                <li className="nav-item"><Link className="nav-link" to={"/category/cocina"}>Cocina</Link></li>
+                <li className="nav-item"><Link className="nav-link" to={"/category/calzado"}>Calzado</Link></li>
+                <li className="nav-item"><Link className="nav-link" to={"/category/accesorio"}>Accesorios</Link></li>
+                <li className="nav-item-cart">
+                    <Link className="nav-link-cart" to={"/cart"} aria-label="Carrito">🛒</Link>
+                    {total > 0 && (
+                        <span className="in-cart" aria-live="polite">{total}</span>
+                    )}
+                </li>
+            </ul>
     </nav>
     ); 
 }

@@ -1,0 +1,52 @@
+
+.div-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px 20px;
+    margin-top: 2.5rem;
+}
+
+.img-logo {
+    max-height: 80px;
+    max-width: 500px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.div-search {
+    display: flex;
+    align-items: center;
+}
+
+.div-text {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+/* El buscador ocupa el resto del espacio */
+.div-header > *:last-child {
+  flex: 1;
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+  .div-header {
+    flex-direction: column;        /* uno arriba del otro */
+    align-items: center;           /* centrado */
+    justify-content: center;
+  }
+
+  .div-header > *:last-child {
+    width: 100%;                   /* que el buscador se expanda */
+  }
+
+  .img-logo {
+    max-height: 50px;
+    margin-bottom: 80%;
+    height: auto;
+    width: auto;
+  }
+}

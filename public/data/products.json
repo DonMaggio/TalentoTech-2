@@ -3,88 +3,120 @@
     "id": "1",
     "name": "Carpa Himalaya 3P",
     "price": 65000,
-    "category": "Carpas",
+    "category": "carpa",
     "description": "Carpa de alta montaña para 3 personas, resistente al viento y la lluvia.",
     "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "2",
-    "name": "Carpa ultraliviana 2P",
+    "name": "Carpa Ultraliviana 2P",
     "price": 59000,
-    "category": "Carpas",
+    "category": "carpa",
     "description": "Carpa liviana para 2 personas, ideal para travesías cortas.",
     "imageUrl": "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "3",
-    "name": "Guantes térmicos impermeables",
-    "price": 13000,
-    "category": "Ropa",
-    "description": "Guantes con forro polar interno y palma antideslizante. Resistentes al agua.",
-    "imageUrl": "https://images.unsplash.com/photo-1609501676200-0a60b8ef3b1c?auto=format&fit=crop&w=800&q=80"
+    "name": "Carpa Familiar 6P",
+    "price": 112000,
+    "category": "carpa",
+    "description": "Carpa espaciosa para 6 personas con avance y ventilación superior.",
+    "imageUrl": "https://images.unsplash.com/photo-1523978591478-c753949ff840?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": "4",
-    "name": "Camiseta térmica DryTech",
-    "price": 14500,
-    "category": "Ropa",
-    "description": "Camiseta térmica respirable de secado rápido. Ideal para climas fríos.",
-    "imageUrl": "https://images.unsplash.com/photo-1600181955055-59a2f8e21056?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    "id": "5",
     "name": "Hornillo portátil a gas",
     "price": 18000,
-    "category": "Cocina",
+    "category": "cocina",
     "description": "Hornillo plegable de acero inoxidable, compatible con cartuchos de gas.",
     "imageUrl": "https://images.unsplash.com/photo-1524492449090-367f6c77f456?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": "6",
-    "name": "Cocinilla multifunción con olla",
+    "id": "5",
+    "name": "Set de cocina multifunción",
     "price": 26000,
-    "category": "Cocina",
-    "description": "Set de cocina de camping con hornillo, olla, tapa y encendido piezoeléctrico.",
+    "category": "cocina",
+    "description": "Set de cocina de camping con hornillo, olla y encendido piezoeléctrico.",
     "imageUrl": "https://images.unsplash.com/photo-1606787366850-de6330128bfc?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": "7",
+    "id": "6",
     "name": "Set de cubiertos plegables",
     "price": 5600,
-    "category": "Cocina",
+    "category": "cocina",
     "description": "Cuchillo, tenedor y cuchara plegables en acero inoxidable.",
     "imageUrl": "https://images.unsplash.com/photo-1627490217745-6d8478cf5a09?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": "8",
+    "id": "7",
     "name": "Anafe doble a gas",
     "price": 42000,
-    "category": "Cocina",
+    "category": "cocina",
     "description": "Anafe portátil con dos hornallas y encendido piezoeléctrico.",
     "imageUrl": "https://images.unsplash.com/photo-1627483269518-04bfc8f2465c?auto=format&fit=crop&w=800&q=80"
   },
   {
+    "id": "8",
+    "name": "Botas de trekking impermeables",
+    "price": 89000,
+    "category": "calzado",
+    "description": "Botas resistentes al agua con suela antideslizante y soporte de tobillo.",
+    "imageUrl": "https://images.unsplash.com/photo-1600180758890-6d2b8f785d3b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
     "id": "9",
+    "name": "Zapatillas outdoor ligeras",
+    "price": 64000,
+    "category": "calzado",
+    "description": "Zapatillas cómodas y livianas para caminatas y senderismo.",
+    "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "10",
+    "name": "Sandalias de trekking",
+    "price": 38000,
+    "category": "calzado",
+    "description": "Sandalias abiertas con suela adherente, perfectas para verano y agua.",
+    "imageUrl": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "11",
     "name": "Kit de primeros auxilios compacto",
     "price": 8500,
-    "category": "Accesorios",
+    "category": "accesorio",
     "description": "Botiquín de viaje con los elementos esenciales para emergencias.",
     "imageUrl": "https://images.unsplash.com/photo-1619712604237-06c6c2ef3e0b?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": "10",
+    "id": "12",
+    "name": "Bolso estanco 20L",
+    "price": 21000,
+    "category": "accesorio",
+    "description": "Bolso impermeable con cierre enrollable. Ideal para kayak o lluvia.",
+    "imageUrl": "https://images.unsplash.com/photo-1616006895093-6e4d6d8d6c9c?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "13",
+    "name": "Lámpara recargable LED",
+    "price": 14500,
+    "category": "accesorio",
+    "description": "Lámpara portátil con batería recargable y varios modos de iluminación.",
+    "imageUrl": "https://images.unsplash.com/photo-1519692933481-e162a57d6721?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "14",
     "name": "Cinturón portabotella",
     "price": 7500,
-    "category": "Accesorios",
+    "category": "accesorio",
     "description": "Cinturón ajustable con bolsillo y soporte para botella deportiva.",
     "imageUrl": "https://images.unsplash.com/photo-1590080875841-17e1b4f7c38d?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": "11",
-    "name": "Bolso estanco 20L",
-    "price": 21000,
-    "category": "Accesorios",
-    "description": "Bolso impermeable con cierre enrollable. Ideal para kayak o lluvia.",
-    "imageUrl": "https://images.unsplash.com/photo-1616006895093-6e4d6d8d6c9c?auto=format&fit=crop&w=800&q=80"
+    "id": "15",
+    "name": "Bastones de trekking ajustables",
+    "price": 32000,
+    "category": "accesorio",
+    "description": "Bastones de aluminio liviano con empuñadura ergonómica y antideslizante.",
+    "imageUrl": "https://images.unsplash.com/photo-1603048356561-417d08a33c52?auto=format&fit=crop&w=800&q=80"
   }
 ]
