@@ -1,7 +1,7 @@
 /*componente que maneja estados, con lógica*/
 import { useState } from "react"
-import { ProductFormUI } from "../productFormUI/productFormUI"
-import { validateProduct } from "../../../utils/validatePorducts"
+import { ProductFormUI } from "../ProductFormUI/ProductFormUI"
+import { validateProduct } from "../../../utils/validateProducts"
 import { uploadToImgbb } from "../../../services/uploadImage"
 import { createProduct } from "../../../services/productsServices"
 
